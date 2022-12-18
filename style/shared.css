@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+:root {
+    --deafult-transition: color 0.3s ease-in-out,
+        background-color 0.3s ease-in-out, border-color 0.3s ease-in-out,
+        fill 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "Montserrat", sans-serif;
+    color: var(--text-color);
+    margin: 0;
+    transition: var(--deafult-transition);
+}
+img {
+    background: none;
+}
+button {
+    background: none;
+    border: none;
+}
+.invert {
+    filter: invert(var(--invert-state));
+}

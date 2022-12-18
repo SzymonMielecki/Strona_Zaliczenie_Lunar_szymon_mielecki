@@ -1,0 +1,12 @@
+:root[data-theme="light"] {
+    --text-color: #000000;
+    --background-color: #ffeddf;
+    --switch-circle-bg: #ffd371;
+    --switch-circle-pos: 5px;
+    --icon-sun: #997f44;
+    --icon-moon: #b1b0b5;
+    --switch-bg: #f5f5f6;
+    --footer-bg: #ffffff;
+    --footer-text: #000000;
+    --invert-state: 1;
+}

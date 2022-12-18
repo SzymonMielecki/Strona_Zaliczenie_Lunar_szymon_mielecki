@@ -1,0 +1,42 @@
+.themeSwitcher {
+    background-color: var(--switch-bg);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    cursor: pointer;
+    padding: 11px;
+    transition: var(--deafult-transition);
+}
+
+.themeSwitcher::before {
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-color: var(--switch-circle-bg);
+    border-radius: 50px;
+    z-index: 0;
+    left: 0;
+    transform: translateX(var(--switch-circle-pos));
+    transition: var(--deafult-transition);
+}
+
+.themeSwitcher svg {
+    z-index: 1;
+    transition: var(--deafult-transition);
+}
+
+.iconSun {
+    fill: var(--icon-sun);
+}
+
+.iconMoon {
+    fill: var(--icon-moon);
+}
+
+.overlay {
+    position: fixed;
+    bottom: 3vh;
+    right: 3vw;
+}
