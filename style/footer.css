@@ -2,6 +2,7 @@
     margin: 0;
     width: 100%;
     display: flex;
+    bottom: 0;
 }
 
 footer {

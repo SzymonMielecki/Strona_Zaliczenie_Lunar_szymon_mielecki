@@ -12,6 +12,10 @@ body {
     color: var(--text-color);
     margin: 0;
     transition: var(--deafult-transition);
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 img {
     background: none;
@@ -22,4 +26,13 @@ button {
 }
 .invert {
     filter: invert(var(--invert-state));
+}
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
 }
