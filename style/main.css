@@ -29,6 +29,7 @@
 .blobs > button > img:active {
     border: 2px solid var(--text-color);
     transition: var(--deafult-transition);
+    box-sizing: border-box;
 }
 
 .blobHTFU {
