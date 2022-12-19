@@ -13,18 +13,7 @@
         <link rel="icon" href="./assets/lunarLogoSmall.png" />
         <title>Lunar</title>
 
-        <script>
-            let localStorageTheme = localStorage.getItem("theme");
-            themeToSet = localStorageTheme;
-
-            if (!localStorageTheme) {
-                themeToSet = window.matchMedia("(prefers-color-scheme: dark)")
-                    .matches
-                    ? "dark"
-                    : "light";
-            }
-            document.documentElement.setAttribute("data-theme", themeToSet);
-        </script>
+        <script src="./scripts/userTheme.js"></script>
 
         <link rel="stylesheet" href="./style/shared.css" />
         <link rel="stylesheet" href="./style/header.css" />

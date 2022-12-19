@@ -12,8 +12,8 @@ body {
     color: var(--text-color);
     margin: 0;
     transition: var(--deafult-transition);
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     overflow-y: scroll;
     overflow-x: hidden;
 }

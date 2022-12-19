@@ -28,16 +28,16 @@
 .blobHTFU {
     left: 10vw;
     top: 50vh;
-    height: 41vh;
+    width: 31vw;
 }
 .blobWakepark {
     left: 35vw;
     top: 10vh;
-    height: 38vh;
+    width: 28vw;
 }
 
 .blobFood {
     left: 70vw;
     top: 50vh;
-    height: 35vh;
+    width: 25vw;
 }
