@@ -25,6 +25,11 @@
     transition: var(--deafult-transition);
 }
 
+.blobs > button > img:active {
+    border: 2px solid var(--text-color);
+    transition: var(--deafult-transition);
+}
+
 .blobHTFU {
     left: 10vw;
     top: 50vh;
