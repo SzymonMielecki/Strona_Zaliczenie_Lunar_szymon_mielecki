@@ -12,6 +12,7 @@
 
 .blobs > * {
     position: absolute;
+    cursor: pointer;
 }
 
 .blobs > button > img {
